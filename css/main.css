@@ -1,12 +1,12 @@
 /* My delicious css*/
 
 body {
-    background-color: palevioletred;
+    background-color:rgb(225, 241, 241);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
 
-header,footer{ background-color: greenyellow;
+header,footer{ background-color: rgb(160, 146, 223);
 
 }
 
@@ -19,4 +19,27 @@ color:white;
 }
 ul{ 
     list-style-type: square;
+}
+
+li:nth-child(odd){  
+    background: rgb(117, 255, 175);
+}
+
+a:link, a:visited{
+background-color: aqua;
+color:rgb(116, 17, 67);
+border-style:solid;
+ border-width: 3px;
+padding: 10px 20px;
+text-align: center; 
+text-decoration: none;
+display: inline-block;
+
+}
+
+a:hover, a:active{
+background-color: blue;
+color: azure;
+border: 2px black;
+
 }
